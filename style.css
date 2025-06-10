@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  text-align: center;
+  background: #333;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.progress-container,
+.volume-container {
+  margin: 15px 0;
+}
+
+input[type="range"] {
+  width: 80%;
+}
